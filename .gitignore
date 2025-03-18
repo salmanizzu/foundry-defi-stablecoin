@@ -6,9 +6,32 @@ out/
 !/broadcast
 /broadcast/*/31337/
 /broadcast/**/dry-run/
+/broadcast
 
 # Docs
 docs/
 
 # Dotenv file
 .env
+.DS_Store
+
+# Layout of Contract:
+# version
+# imports
+# interfaces, libraries, contracts
+# errors
+# Type declarations
+# State variables
+# Events
+# Modifiers
+# Functions
+
+# Layout of Functions:
+# constructor
+# receive function (if exists)
+# fallback function (if exists)
+# external
+# public
+# internal
+# private
+# view & pure functions
